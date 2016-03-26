@@ -5,8 +5,8 @@ Designed to provide a simple way to setup a mean developer enviroment from scrat
 ## NodeJs
 
 ```curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -```
-sudo apt-get update
-sudo apt-get install nodejs
+```sudo apt-get update```
+```sudo apt-get install nodejs```
 
 *note that the '5' in the frist command is the current version if it gets outdated u just need to check the latest or stable version in http://nodejs.org.
 
