@@ -22,6 +22,14 @@ and
 
 and thats it for NodeJS
 
+##Express
+
+  After node has been setup you can use npm to install Express
+
+  ```
+  sudo npm isntall -g express express-generator
+  ```
+
 ##MongoDB
 
 ```sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10```
@@ -34,7 +42,7 @@ typing ```mongo -version``` should print out the current version of the mongo sh
 
 Now in your system lets make the things easier:
 
-###1- create de /data/db folder by typing:
+###1- create de /data/db folder by typing(Needed if you want to use the default folder of mongod):
 
   ```sudo mkdir /data && sudo mkdir /data/db```
   
@@ -44,11 +52,11 @@ Now in your system lets make the things easier:
   
 In some cases mongod wont startup automacly with the system by default so use step 2
 
-###2- set mongo server to start along the system:
+###2- set mongo server to start along the system(just run if your system dont start it by itself):
 
   add mongod custom command to the startup applications
   
-###3- set mongo-hacker:
+###3- set mongo-hacker(optional):
 
   Mongo-Hacker is a nice feature for mongo shell and to install it just follow (https://github.com/TylerBrock/mongo-hacker).
   
@@ -63,7 +71,7 @@ In some cases mongod wont startup automacly with the system by default so use st
   ```
   
   
-###4- Disable warning messages:
+###4- Disable warning messages(optional):
 
   In most cases messages like bellow will show up everytime u start the shell:
   ```
@@ -122,4 +130,20 @@ In some cases mongod wont startup automacly with the system by default so use st
   ```
   
   and then reboot your system to make the changes work.
+  
+  ##Tools (Optional)
+  
+  ###Git
+  
+  real powerful tool for version control and projects management
+  
+  ``` sudo apt-get install git ```
+  
+  ###Atom
+  
+  Atom is quit a tool for development and easy to setup text editor:
+  ```
+  wget https://atom.io/download/deb && mv deb atom.deb && sudo dpkg -i atom.deb && atom
+
+  ```
 
