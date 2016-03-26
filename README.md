@@ -4,7 +4,7 @@ Designed to provide a simple way to setup a mean developer enviroment from scrat
 
 ## NodeJs
 
-curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
+```curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -```
 sudo apt-get update
 sudo apt-get install nodejs
 
